@@ -12,7 +12,6 @@ from pathlib import Path
 REQUIRED_FILES = (
     "Dockerfile",
     "render.yaml",
-    ".github/workflows/pages.yml",
     "public/index.html",
     "public/evidenceops-data.json",
     "public/.nojekyll",
@@ -34,7 +33,7 @@ def check_deploy_readiness(root: Path) -> dict:
         "pycache_dirs": pycache_dirs,
         "static_url_path": "public/index.html",
         "docker_entrypoint": "Dockerfile",
-        "github_pages_workflow": ".github/workflows/pages.yml",
+        "github_pages_source": "gh-pages branch from public/",
     }
 
 
@@ -53,4 +52,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

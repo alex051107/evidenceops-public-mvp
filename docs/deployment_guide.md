@@ -17,7 +17,14 @@ docker build -t evidenceops-public-mvp .
 docker run --rm -p 8765:8765 evidenceops-public-mvp
 ```
 
-3. Render Blueprint：
+3. GitHub Pages static fallback：
+
+```bash
+python3 scripts/build_static_site.py --output-dir public
+git subtree push --prefix public origin gh-pages
+```
+
+4. Render Blueprint：
 
 `render.yaml` 已提供 Docker web service 配置。
 
@@ -48,6 +55,14 @@ python3 -m unittest discover -s tests
 5. 部署后访问 `/healthz`。
 6. 再访问 `/api/summary` 和 `/api/search?q=source%20license%20synthetic%20citation`。
 
+## GitHub Pages 上线步骤
+
+1. 确保 `public/index.html` 和 `public/evidenceops-data.json` 存在。
+2. 推送主分支到 GitHub。
+3. 推送 `public/` 到 `gh-pages` 分支。
+4. 在 GitHub Pages 设置里选择 `gh-pages` branch `/root`，或用 GitHub API 配置 Pages。
+5. 访问 `https://<owner>.github.io/<repo>/`。
+
 ## 不能声称的内容
 
 - 不能说已生产部署；
@@ -55,4 +70,3 @@ python3 -m unittest discover -s tests
 - 不能说企业客户正在使用；
 - 不能说 HIPAA/GDPR compliance；
 - 没有公网 URL 前不能说已经上线。
-

@@ -35,7 +35,6 @@ class DeployReadinessBehaviorTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             tmp = Path(tmpdir)
             shutil.copytree(ROOT / "public", tmp / "public")
-            shutil.copytree(ROOT / ".github", tmp / ".github")
             for filename in ["Dockerfile", "render.yaml"]:
                 shutil.copy2(ROOT / filename, tmp / filename)
             (tmp / "data" / "eval").mkdir(parents=True)

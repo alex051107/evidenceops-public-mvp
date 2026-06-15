@@ -1,0 +1,769 @@
+{
+  "status": "ok",
+  "evaluated_at": "2026-06-15T10:42:18+00:00",
+  "dataset_size": {
+    "retrieval_cases": 20,
+    "chunks": 5,
+    "extraction_cases": 50,
+    "extractions": 12
+  },
+  "retrieval": {
+    "case_count": 20,
+    "supported_case_count": 14,
+    "unsupported_case_count": 6,
+    "status_accuracy": 1.0,
+    "supported_hit_rate": 1.0,
+    "unsupported_accuracy": 1.0,
+    "case_results": [
+      {
+        "case_id": "retrieval_001_3172a2350a",
+        "query": "source license metadata",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "actual_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_002_5f3391d4b5",
+        "query": "citation metadata",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "actual_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_003_48736e58b4",
+        "query": "synthetic evidence",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "actual_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_004_f73957f61f",
+        "query": "skill taxonomy",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814"
+        ],
+        "actual_chunk_ids": [
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_005_a06cc778d7",
+        "query": "public filing history",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a"
+        ],
+        "actual_chunk_ids": [
+          "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_006_26a3912747",
+        "query": "registered GET JSON",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+          "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a"
+        ],
+        "actual_chunk_ids": [
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+          "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_007_a1dfe35402",
+        "query": "text mining eligible",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde"
+        ],
+        "actual_chunk_ids": [
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_008_df65e981d9",
+        "query": "human review unsupported claims",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "actual_chunk_ids": [
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_009_b52be54768",
+        "query": "bioactivity downloads",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f"
+        ],
+        "actual_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_010_5599d6b784",
+        "query": "astrophysics volcano telescope",
+        "expected_status": "unsupported",
+        "actual_status": "unsupported",
+        "expected_chunk_ids": [],
+        "actual_chunk_ids": [],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_011_6c23d6ea99",
+        "query": "patient diagnosis insulin dose",
+        "expected_status": "unsupported",
+        "actual_status": "unsupported",
+        "expected_chunk_ids": [],
+        "actual_chunk_ids": [],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_012_e1904f7f5a",
+        "query": "private customer revenue forecast",
+        "expected_status": "unsupported",
+        "actual_status": "unsupported",
+        "expected_chunk_ids": [],
+        "actual_chunk_ids": [],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_013_d468e45cab",
+        "query": "hipaa compliant production deployment",
+        "expected_status": "unsupported",
+        "actual_status": "unsupported",
+        "expected_chunk_ids": [],
+        "actual_chunk_ids": [],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_014_fe1ee1fab6",
+        "query": "stock investment recommendation",
+        "expected_status": "unsupported",
+        "actual_status": "unsupported",
+        "expected_chunk_ids": [],
+        "actual_chunk_ids": [],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_015_904d2685eb",
+        "query": "unpublished ligamd trajectory",
+        "expected_status": "unsupported",
+        "actual_status": "unsupported",
+        "expected_chunk_ids": [],
+        "actual_chunk_ids": [],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_016_4b7c6a5646",
+        "query": "source license metadata case 16",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "actual_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_017_df18710fb4",
+        "query": "citation metadata case 17",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "actual_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_018_55402cbfa7",
+        "query": "synthetic evidence case 18",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "actual_chunk_ids": [
+          "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+          "doc_synthetic_sop_triage::chunk::6dd6c17672d17159"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_019_9e03ffb9a4",
+        "query": "skill taxonomy case 19",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814"
+        ],
+        "actual_chunk_ids": [
+          "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814"
+        ],
+        "status_match": true,
+        "hit": true
+      },
+      {
+        "case_id": "retrieval_020_55d1666e54",
+        "query": "public filing history case 20",
+        "expected_status": "supported",
+        "actual_status": "supported",
+        "expected_chunk_ids": [
+          "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a"
+        ],
+        "actual_chunk_ids": [
+          "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a"
+        ],
+        "status_match": true,
+        "hit": true
+      }
+    ]
+  },
+  "extraction": {
+    "case_count": 50,
+    "presence_accuracy": 1.0,
+    "true_positive_count": 12,
+    "true_negative_count": 38,
+    "false_positive_count": 0,
+    "false_negative_count": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "case_results": [
+      {
+        "case_id": "extract_001_93c36e25e2",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "skill_signal",
+        "field_value": "skill taxonomy",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_002_6b1a8f9746",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "source_constraint",
+        "field_value": "not as",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_003_cdce14c56e",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "workflow_signal",
+        "field_value": "metadata",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_004_c9fc432691",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "workflow_signal",
+        "field_value": "metadata",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_005_da9bec2e32",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "source_constraint",
+        "field_value": "license",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_006_7076b79c66",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "source_constraint",
+        "field_value": "only",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_007_3db05e5b72",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "source_constraint",
+        "field_value": "not as",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_008_6113a4aff6",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "source-backed evidence",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_009_34a5f682cf",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "citation metadata",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_010_d9ffd8e757",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "unsupported claims",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_011_2dd48e743b",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "human review",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_012_2d48aff8ac",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "metadata",
+        "expected_present": true,
+        "actual_present": true,
+        "match": true
+      },
+      {
+        "case_id": "extract_013_a89625d356",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "skill_signal",
+        "field_value": "clinical diagnosis",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_014_cc77b6aff4",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "skill_signal",
+        "field_value": "production deployment",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_015_4ee0a0a7f8",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "high concurrency cluster",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_016_0033447ce7",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "workflow_signal",
+        "field_value": "patient treatment advice",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_017_97befd1ddd",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "source_constraint",
+        "field_value": "real customer data",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_018_6348629a51",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "source_constraint",
+        "field_value": "hipaa compliance",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_019_62bc2b3c0b",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "skill_signal",
+        "field_value": "clinical diagnosis",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_020_5f1e20adba",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "skill_signal",
+        "field_value": "production deployment",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_021_f6cbe97ec1",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "workflow_signal",
+        "field_value": "high concurrency cluster",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_022_c5a8476925",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "workflow_signal",
+        "field_value": "patient treatment advice",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_023_38724b396b",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "source_constraint",
+        "field_value": "real customer data",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_024_27b8bcbbd7",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "source_constraint",
+        "field_value": "hipaa compliance",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_025_e8f4800dfe",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "skill_signal",
+        "field_value": "clinical diagnosis",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_026_13aa8bd84d",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "skill_signal",
+        "field_value": "production deployment",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_027_0d631f7ccb",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "workflow_signal",
+        "field_value": "high concurrency cluster",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_028_344178d77b",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "workflow_signal",
+        "field_value": "patient treatment advice",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_029_0dcf142d5d",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "source_constraint",
+        "field_value": "real customer data",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_030_a7007dcb07",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "source_constraint",
+        "field_value": "hipaa compliance",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_031_036c06a2e1",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "skill_signal",
+        "field_value": "clinical diagnosis",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_032_d0b67042ac",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "skill_signal",
+        "field_value": "production deployment",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_033_9ef383de1f",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "workflow_signal",
+        "field_value": "high concurrency cluster",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_034_c110eddcf3",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "workflow_signal",
+        "field_value": "patient treatment advice",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_035_e28d91ea1b",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "source_constraint",
+        "field_value": "real customer data",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_036_6a18a49071",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "source_constraint",
+        "field_value": "hipaa compliance",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_037_c8545371d6",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "skill_signal",
+        "field_value": "clinical diagnosis",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_038_b25f37978c",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "skill_signal",
+        "field_value": "production deployment",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_039_3f03700df5",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "workflow_signal",
+        "field_value": "high concurrency cluster",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_040_076b7c7b66",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "patient treatment advice",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_041_e659c7d605",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "source_constraint",
+        "field_value": "real customer data",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_042_737aee5d0c",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "source_constraint",
+        "field_value": "hipaa compliance",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_043_03e99efef6",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "skill_signal",
+        "field_value": "clinical diagnosis",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_044_3b66bf085b",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "skill_signal",
+        "field_value": "production deployment",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_045_fa209ddd9e",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "workflow_signal",
+        "field_value": "high concurrency cluster",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_046_ef38a9a3de",
+        "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+        "field_type": "workflow_signal",
+        "field_value": "patient treatment advice",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_047_2a7d437390",
+        "chunk_id": "doc_chembl_release_seed::chunk::45e4852b76d3d87f",
+        "field_type": "source_constraint",
+        "field_value": "real customer data",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_048_b759e7fbc3",
+        "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+        "field_type": "source_constraint",
+        "field_value": "hipaa compliance",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_049_563264df8c",
+        "chunk_id": "doc_sec_edgar_api_seed::chunk::605c355f8b710e7a",
+        "field_type": "skill_signal",
+        "field_value": "clinical diagnosis",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      },
+      {
+        "case_id": "extract_050_5bf4f74496",
+        "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+        "field_type": "skill_signal",
+        "field_value": "production deployment",
+        "expected_present": false,
+        "actual_present": false,
+        "match": true
+      }
+    ]
+  },
+  "guardrails": [
+    "metrics are valid only for this small project-local gold set",
+    "report dataset size with every metric",
+    "do not claim production quality or broad generalization"
+  ]
+}

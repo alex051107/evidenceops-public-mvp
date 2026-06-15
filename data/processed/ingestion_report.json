@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "ingested_at": "2026-06-15T10:42:17+00:00",
+  "input_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/raw/samples/sample_documents.jsonl",
+  "output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/document_store.jsonl",
+  "document_count": 5,
+  "public_document_count": 4,
+  "synthetic_document_count": 1,
+  "source_counts": {
+    "onet": 1,
+    "chembl": 1,
+    "pmc_oa": 1,
+    "sec_edgar": 1,
+    "synthetic_enterprise_docs": 1
+  },
+  "document_type_counts": {
+    "api_doc_note": 2,
+    "download_page_note": 1,
+    "license_policy_note": 1,
+    "synthetic_sop": 1
+  },
+  "guardrails": [
+    "private_required sources are rejected",
+    "license_status is preserved",
+    "source_url is preserved",
+    "synthetic documents remain marked",
+    "no RAG or metric claim is generated in Day 3"
+  ]
+}

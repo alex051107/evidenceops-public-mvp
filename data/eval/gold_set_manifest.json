@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "built_at": "2026-06-15T10:42:18+00:00",
+  "retrieval_case_count": 20,
+  "extraction_case_count": 50,
+  "positive_extraction_case_count": 12,
+  "negative_extraction_case_count": 38,
+  "supported_retrieval_case_count": 14,
+  "unsupported_retrieval_case_count": 6,
+  "guardrails": [
+    "gold set is small and project-local",
+    "metrics from this set must report dataset size",
+    "cases are generated from audited chunks and require manual review before resume use",
+    "no claim of broad production quality is implied"
+  ]
+}

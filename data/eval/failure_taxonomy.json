@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "analyzed_at": "2026-06-15T10:42:18+00:00",
+  "failure_counts": {
+    "retrieval_miss": 0,
+    "unsupported_false_positive": 0,
+    "retrieval_status_mismatch": 0,
+    "extraction_false_negative": 0,
+    "extraction_false_positive": 0
+  },
+  "total_failure_count": 0,
+  "total_failure_event_count": 0,
+  "examples": {
+    "retrieval_miss": [],
+    "unsupported_false_positive": [],
+    "retrieval_status_mismatch": [],
+    "extraction_false_negative": [],
+    "extraction_false_positive": []
+  },
+  "taxonomy_notes": {
+    "retrieval_miss": "Expected a supported chunk but retrieval did not hit any expected chunk.",
+    "unsupported_false_positive": "Expected unsupported but retrieval returned evidence.",
+    "retrieval_status_mismatch": "Predicted supported/unsupported status differed from expected status.",
+    "extraction_false_negative": "Expected field was not extracted.",
+    "extraction_false_positive": "Unexpected field was extracted."
+  }
+}

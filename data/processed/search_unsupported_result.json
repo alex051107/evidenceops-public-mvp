@@ -1,0 +1,8 @@
+{
+  "status": "unsupported",
+  "query": "unmatched astrophysics volcano",
+  "searched_at": "2026-06-15T10:42:18+00:00",
+  "evidence_count": 0,
+  "evidence": [],
+  "reason": "No chunk matched the query terms. Return unsupported instead of fabricating evidence."
+}

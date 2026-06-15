@@ -1,0 +1,26 @@
+{
+  "status": "risk_found",
+  "checked_at": "2026-06-15T10:42:18+00:00",
+  "intended_use": "project_demo",
+  "query": "source license synthetic citation",
+  "risk_count": 1,
+  "severity_counts": {
+    "warning": 1
+  },
+  "risks": [
+    {
+      "risk_type": "synthetic_source_used_for_non_synthetic_context",
+      "severity": "warning",
+      "message": "Synthetic evidence must not be presented as real customer/company/source data.",
+      "query": "source license synthetic citation",
+      "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+      "source_id": "synthetic_enterprise_docs"
+    }
+  ],
+  "guardrails": [
+    "risk check is a project guardrail, not legal/medical/compliance advice",
+    "unsupported search results must not become claims",
+    "synthetic evidence must stay labeled",
+    "not_use_for conflicts are treated as errors"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "parsed_at": "2026-06-15T10:42:17+00:00",
+  "input_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/document_store.jsonl",
+  "parsed_output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/parsed_documents.jsonl",
+  "errors_output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/parse_errors.jsonl",
+  "input_document_count": 5,
+  "parsed_document_count": 5,
+  "parse_error_count": 0,
+  "synthetic_document_count": 1,
+  "public_document_count": 4,
+  "source_counts": {
+    "onet": 1,
+    "chembl": 1,
+    "pmc_oa": 1,
+    "sec_edgar": 1,
+    "synthetic_enterprise_docs": 1
+  },
+  "guardrails": [
+    "source metadata is preserved",
+    "license_status is preserved",
+    "synthetic documents remain marked",
+    "empty text becomes parse error instead of silent success",
+    "no retrieval or LLM metric is produced in Day 4"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "analyzed_at": "2026-06-15T10:42:18+00:00",
+  "dataset_size": {
+    "retrieval_cases": 20,
+    "chunks": 5
+  },
+  "ablation_type": "retrieval_top_k",
+  "runs": [
+    {
+      "top_k": 1,
+      "case_count": 20,
+      "status_accuracy": 1.0,
+      "supported_hit_rate": 1.0,
+      "unsupported_accuracy": 1.0
+    },
+    {
+      "top_k": 3,
+      "case_count": 20,
+      "status_accuracy": 1.0,
+      "supported_hit_rate": 1.0,
+      "unsupported_accuracy": 1.0
+    },
+    {
+      "top_k": 5,
+      "case_count": 20,
+      "status_accuracy": 1.0,
+      "supported_hit_rate": 1.0,
+      "unsupported_accuracy": 1.0
+    }
+  ],
+  "guardrails": [
+    "ablation is run on the small project-local gold set",
+    "do not generalize beyond the recorded dataset size",
+    "top_k ablation does not evaluate semantic embedding quality"
+  ]
+}

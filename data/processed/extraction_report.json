@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "extracted_at": "2026-06-15T10:42:18+00:00",
+  "chunks_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/chunks.jsonl",
+  "output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/extractions.jsonl",
+  "input_chunk_count": 5,
+  "matched_chunk_count": 5,
+  "unmatched_chunk_count": 0,
+  "extraction_count": 12,
+  "synthetic_extraction_count": 5,
+  "public_extraction_count": 7,
+  "field_type_counts": {
+    "skill_signal": 1,
+    "source_constraint": 4,
+    "workflow_signal": 7
+  },
+  "source_counts": {
+    "onet": 2,
+    "chembl": 1,
+    "pmc_oa": 3,
+    "sec_edgar": 1,
+    "synthetic_enterprise_docs": 5
+  },
+  "guardrails": [
+    "only rule-matched fields are extracted",
+    "each extraction has evidence_span and citation",
+    "no LLM-generated missing field is fabricated",
+    "no extraction quality metric is claimed without a gold set"
+  ]
+}

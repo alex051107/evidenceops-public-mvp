@@ -1,0 +1,99 @@
+{
+  "status": "supported",
+  "query": "source license synthetic citation",
+  "searched_at": "2026-06-15T10:42:18+00:00",
+  "retrieval_method": "lexical_term_overlap",
+  "top_k": 5,
+  "evidence_count": 3,
+  "evidence": [
+    {
+      "rank": 1,
+      "score": 0.1,
+      "chunk_id": "doc_pmc_oa_policy_seed::chunk::60418982599f5bde",
+      "document_id": "doc_pmc_oa_policy_seed",
+      "section_id": "doc_pmc_oa_policy_seed::section::4ca837e9c5c8c529",
+      "source_id": "pmc_oa",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/tools/openftlist/",
+      "license_status": "license varies per article; use only allowed retrieval services",
+      "is_synthetic": false,
+      "text": "PMC Open Access Subset articles are reusable only according to article-level licenses. The project stores license metadata and avoids treating all PMC content as text-mining eligible.",
+      "not_use_for": [
+        "all_pmc_text_mining",
+        "copyrighted_fulltext_redistribution"
+      ],
+      "citation": {
+        "char_end": 183,
+        "char_start": 0,
+        "document_id": "doc_pmc_oa_policy_seed",
+        "is_synthetic": false,
+        "license_status": "license varies per article; use only allowed retrieval services",
+        "retrieved_at": "2026-06-15",
+        "section_id": "doc_pmc_oa_policy_seed::section::4ca837e9c5c8c529",
+        "source_id": "pmc_oa",
+        "source_name": "PMC Open Access Subset",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/tools/openftlist/"
+      }
+    },
+    {
+      "rank": 2,
+      "score": 0.1,
+      "chunk_id": "doc_synthetic_sop_triage::chunk::6dd6c17672d17159",
+      "document_id": "doc_synthetic_sop_triage",
+      "section_id": "doc_synthetic_sop_triage::section::765eb5e73f08e269",
+      "source_id": "synthetic_enterprise_docs",
+      "source_url": "local_generated",
+      "license_status": "project-generated synthetic content",
+      "is_synthetic": true,
+      "text": "When an analyst submits a question, the system must retrieve source-backed evidence, attach citation metadata, mark unsupported claims, and route uncertain cases for human review.",
+      "not_use_for": [
+        "real_customer_data",
+        "real_company_process"
+      ],
+      "citation": {
+        "char_end": 179,
+        "char_start": 0,
+        "document_id": "doc_synthetic_sop_triage",
+        "is_synthetic": true,
+        "license_status": "project-generated synthetic content",
+        "retrieved_at": "2026-06-15",
+        "section_id": "doc_synthetic_sop_triage::section::765eb5e73f08e269",
+        "source_id": "synthetic_enterprise_docs",
+        "source_name": "Synthetic Enterprise SOP FAQ Meeting Notes",
+        "source_url": "local_generated"
+      }
+    },
+    {
+      "rank": 3,
+      "score": 0.087039,
+      "chunk_id": "doc_onet_api_reference_seed::chunk::7b60c1e5daccf814",
+      "document_id": "doc_onet_api_reference_seed",
+      "section_id": "doc_onet_api_reference_seed::section::9ae566d7802a08c0",
+      "source_id": "onet",
+      "source_url": "https://services.onetcenter.org/reference/",
+      "license_status": "license agreement; API key required; commercial use allowed per reference table",
+      "is_synthetic": false,
+      "text": "O*NET Web Services can provide occupation and skill taxonomy data through registered GET requests that return JSON. In this project it is used for skill normalization, not as a live employer JD source.",
+      "not_use_for": [
+        "real_time_jd_claim",
+        "employer_specific_requirement"
+      ],
+      "citation": {
+        "char_end": 201,
+        "char_start": 0,
+        "document_id": "doc_onet_api_reference_seed",
+        "is_synthetic": false,
+        "license_status": "license agreement; API key required; commercial use allowed per reference table",
+        "retrieved_at": "2026-06-15",
+        "section_id": "doc_onet_api_reference_seed::section::9ae566d7802a08c0",
+        "source_id": "onet",
+        "source_name": "O*NET Web Services",
+        "source_url": "https://services.onetcenter.org/reference/"
+      }
+    }
+  ],
+  "guardrails": [
+    "results are evidence chunks, not generated answers",
+    "citation metadata is returned with each chunk",
+    "no recall@k claim is made without a gold set"
+  ]
+}

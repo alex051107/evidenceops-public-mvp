@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "chunked_at": "2026-06-15T10:42:18+00:00",
+  "input_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/parsed_documents.jsonl",
+  "chunks_output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/chunks.jsonl",
+  "input_document_count": 5,
+  "chunk_count": 5,
+  "chunk_error_count": 0,
+  "synthetic_chunk_count": 1,
+  "public_chunk_count": 4,
+  "source_counts": {
+    "onet": 1,
+    "chembl": 1,
+    "pmc_oa": 1,
+    "sec_edgar": 1,
+    "synthetic_enterprise_docs": 1
+  },
+  "max_words": 60,
+  "overlap_words": 10,
+  "guardrails": [
+    "citation metadata is attached to every chunk",
+    "source_url and license_status are preserved",
+    "synthetic chunks remain marked",
+    "no embedding or retrieval metric is produced in Day 5"
+  ]
+}

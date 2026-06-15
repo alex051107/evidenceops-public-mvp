@@ -1,0 +1,26 @@
+{
+  "status": "risk_found",
+  "checked_at": "2026-06-15T10:42:18+00:00",
+  "intended_use": "project_demo",
+  "query": "unmatched astrophysics volcano",
+  "risk_count": 1,
+  "severity_counts": {
+    "warning": 1
+  },
+  "risks": [
+    {
+      "risk_type": "unsupported_query",
+      "severity": "warning",
+      "message": "Search returned unsupported; do not turn this into an answer or resume claim.",
+      "query": "unmatched astrophysics volcano",
+      "chunk_id": null,
+      "source_id": null
+    }
+  ],
+  "guardrails": [
+    "risk check is a project guardrail, not legal/medical/compliance advice",
+    "unsupported search results must not become claims",
+    "synthetic evidence must stay labeled",
+    "not_use_for conflicts are treated as errors"
+  ]
+}

@@ -5,7 +5,7 @@
     "status": "ok",
     "eval": {
       "status": "ok",
-      "evaluated_at": "2026-06-15T10:42:18+00:00",
+      "evaluated_at": "2026-06-15T10:49:54+00:00",
       "dataset_size": {
         "retrieval_cases": 20,
         "chunks": 5,
@@ -774,7 +774,7 @@
     },
     "failure_taxonomy": {
       "status": "ok",
-      "analyzed_at": "2026-06-15T10:42:18+00:00",
+      "analyzed_at": "2026-06-15T10:49:54+00:00",
       "failure_counts": {
         "retrieval_miss": 0,
         "unsupported_false_positive": 0,
@@ -801,7 +801,7 @@
     },
     "ablation": {
       "status": "ok",
-      "analyzed_at": "2026-06-15T10:42:18+00:00",
+      "analyzed_at": "2026-06-15T10:49:54+00:00",
       "dataset_size": {
         "retrieval_cases": 20,
         "chunks": 5
@@ -838,7 +838,7 @@
     },
     "gold_manifest": {
       "status": "ok",
-      "built_at": "2026-06-15T10:42:18+00:00",
+      "built_at": "2026-06-15T10:49:54+00:00",
       "retrieval_case_count": 20,
       "extraction_case_count": 50,
       "positive_extraction_case_count": 12,
@@ -859,7 +859,7 @@
     "search": {
       "status": "supported",
       "query": "source license synthetic citation",
-      "searched_at": "2026-06-15T10:45:30+00:00",
+      "searched_at": "2026-06-15T10:49:54+00:00",
       "retrieval_method": "lexical_term_overlap",
       "top_k": 5,
       "evidence_count": 3,
@@ -957,7 +957,7 @@
     },
     "risk": {
       "status": "risk_found",
-      "checked_at": "2026-06-15T10:45:30+00:00",
+      "checked_at": "2026-06-15T10:49:54+00:00",
       "intended_use": "project_demo",
       "query": "source license synthetic citation",
       "risk_count": 1,
@@ -987,14 +987,14 @@
     "search": {
       "status": "unsupported",
       "query": "unmatched astrophysics volcano",
-      "searched_at": "2026-06-15T10:45:30+00:00",
+      "searched_at": "2026-06-15T10:49:54+00:00",
       "evidence_count": 0,
       "evidence": [],
       "reason": "No chunk matched the query terms. Return unsupported instead of fabricating evidence."
     },
     "risk": {
       "status": "risk_found",
-      "checked_at": "2026-06-15T10:45:30+00:00",
+      "checked_at": "2026-06-15T10:49:54+00:00",
       "intended_use": "project_demo",
       "query": "unmatched astrophysics volcano",
       "risk_count": 1,

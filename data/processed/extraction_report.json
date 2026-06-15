@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "extracted_at": "2026-06-15T10:42:18+00:00",
+  "extracted_at": "2026-06-15T10:49:54+00:00",
   "chunks_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/chunks.jsonl",
   "output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/extractions.jsonl",
   "input_chunk_count": 5,

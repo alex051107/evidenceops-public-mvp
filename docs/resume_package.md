@@ -17,6 +17,7 @@ AI Application / RAG 方向：
 - Built a public-source EvidenceOps demo that ingests audited source cards, preserves license/synthetic metadata, creates citation-aware chunks, and returns unsupported when no evidence is found.
 - Implemented lexical retrieval, small-schema structured extraction, source-aware risk checks, and a project-local evaluation harness over 20 retrieval cases and 50 extraction cases.
 - Shipped a local web console and Docker-ready deployment entrypoint for inspecting evidence chunks, citations, risk flags, eval summaries, and failure taxonomy.
+- Published a GitHub Pages static demo with source code, evidence package, eval report, failure taxonomy, and deployment documentation.
 
 Data / MLOps 方向：
 
@@ -29,6 +30,7 @@ Data / MLOps 方向：
 - 当前 gold set 是 20 retrieval cases + 50 extraction cases；
 - 指标只适用于当前项目内评测；
 - 本地 demo 已验证，公网部署仍需平台连接。
+- 公网静态 demo 已发布；动态 API 后端仍是本地 demo，不写 production API。
 
 ## 不能写
 
@@ -40,5 +42,4 @@ Data / MLOps 方向：
 - high-concurrency distributed system；
 - ChEMBL-scale ingestion；
 - clinical decision support；
-- 线上已投产。
-
+- 动态 API 已线上投产。

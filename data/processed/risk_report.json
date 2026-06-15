@@ -1,6 +1,6 @@
 {
   "status": "risk_found",
-  "checked_at": "2026-06-15T10:42:18+00:00",
+  "checked_at": "2026-06-15T10:49:54+00:00",
   "intended_use": "project_demo",
   "query": "source license synthetic citation",
   "risk_count": 1,

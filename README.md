@@ -2,6 +2,22 @@
 
 这个目录是 EvidenceOps Agent 的公开数据优先执行版。它不使用私人 LiGaMD 日志作为默认数据源，也不把合成企业文档伪装成真实客户资料。
 
+## Online Demo
+
+GitHub Pages:
+
+```text
+https://alex051107.github.io/evidenceops-public-mvp/
+```
+
+Repository:
+
+```text
+https://github.com/alex051107/evidenceops-public-mvp
+```
+
+当前线上版本是静态 Evidence Console，用 `public/evidenceops-data.json` 展示 evidence、citation、risk flags、eval summary 和 failure/ablation summary。动态 `/api/search` 后端仍只在本地 demo server 中运行。
+
 ## 当前阶段
 
 已启动 Day 0-Day 12：

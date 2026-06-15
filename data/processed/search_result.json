@@ -1,7 +1,7 @@
 {
   "status": "supported",
   "query": "source license synthetic citation",
-  "searched_at": "2026-06-15T10:42:18+00:00",
+  "searched_at": "2026-06-15T10:49:54+00:00",
   "retrieval_method": "lexical_term_overlap",
   "top_k": 5,
   "evidence_count": 3,

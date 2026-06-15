@@ -46,6 +46,32 @@ python3 scripts/analyze_failures.py
 python3 -m unittest discover -s tests
 ```
 
+## 当前线上部署
+
+已上线 GitHub Pages 静态版本：
+
+```text
+https://alex051107.github.io/evidenceops-public-mvp/
+```
+
+线上 smoke test：
+
+```bash
+python3 - <<'PY'
+from urllib.request import urlopen
+import json
+
+with urlopen("https://alex051107.github.io/evidenceops-public-mvp/", timeout=10) as r:
+    assert r.status == 200
+    assert "EvidenceOps Static Console" in r.read().decode("utf-8")
+
+with urlopen("https://alex051107.github.io/evidenceops-public-mvp/evidenceops-data.json", timeout=10) as r:
+    data = json.loads(r.read().decode("utf-8"))
+    assert data["status"] == "ok"
+    assert data["default_search"]["search"]["status"] == "supported"
+PY
+```
+
 ## Render 上线步骤
 
 1. 把 `evidenceops_public_mvp/` 放到 GitHub 仓库根目录，或调整 `render.yaml` 的 Dockerfile 路径。

@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "chunked_at": "2026-06-15T10:42:18+00:00",
+  "chunked_at": "2026-06-15T10:49:54+00:00",
   "input_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/parsed_documents.jsonl",
   "chunks_output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/chunks.jsonl",
   "input_document_count": 5,

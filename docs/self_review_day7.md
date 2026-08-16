@@ -11,7 +11,7 @@ Day 7 的 structured extraction baseline 可以进入下一阶段。当前完成
 命令：
 
 ```bash
-cd /Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp
+cd <repo-root>
 python3 -m unittest tests.test_extractor
 python3 scripts/extract_fields.py
 ```

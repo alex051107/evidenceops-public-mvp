@@ -11,7 +11,7 @@ Day 3 完成的是 ingestion MVP：把 Day 2 的 sample document cards 转成规
 命令：
 
 ```bash
-cd /Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp
+cd <repo-root>
 python3 scripts/validate_public_sources.py
 python3 scripts/ingest_sample_documents.py
 ```

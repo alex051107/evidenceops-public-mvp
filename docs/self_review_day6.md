@@ -11,7 +11,7 @@ Day 6 的 lexical retrieval baseline 可以进入下一阶段。当前系统已�
 命令：
 
 ```bash
-cd /Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp
+cd <repo-root>
 python3 -m unittest tests.test_retriever
 python3 scripts/search_chunks.py --query "source license synthetic citation" --top-k 5
 ```

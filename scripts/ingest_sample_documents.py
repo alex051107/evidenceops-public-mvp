@@ -9,6 +9,8 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _portable_paths import portable_report_path
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = ROOT / "data" / "source_registry.csv"
@@ -113,8 +115,8 @@ def main() -> None:
     report = {
         "status": "ok",
         "ingested_at": ingested_at,
-        "input_path": str(SAMPLE_DOCS_PATH),
-        "output_path": str(DOCUMENT_STORE_PATH),
+        "input_path": portable_report_path(SAMPLE_DOCS_PATH, ROOT),
+        "output_path": portable_report_path(DOCUMENT_STORE_PATH, ROOT),
         "document_count": len(processed),
         "public_document_count": len(processed) - synthetic_count,
         "synthetic_document_count": synthetic_count,
@@ -134,4 +136,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

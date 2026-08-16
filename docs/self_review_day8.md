@@ -11,7 +11,7 @@ Day 8 的 source-aware risk check 可以进入下一阶段。当前完成的是�
 命令：
 
 ```bash
-cd /Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp
+cd <repo-root>
 python3 -m unittest tests.test_risk_checker
 python3 scripts/risk_check.py --search-result data/processed/search_result.json --intended-use project_demo --output data/processed/risk_report.json
 python3 scripts/risk_check.py --search-result data/processed/search_unsupported_result.json --intended-use project_demo --output data/processed/risk_unsupported_report.json

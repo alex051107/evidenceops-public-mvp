@@ -43,7 +43,7 @@
 运行：
 
 ```bash
-cd /Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp
+cd <repo-root>
 python3 scripts/validate_public_sources.py
 ```
 

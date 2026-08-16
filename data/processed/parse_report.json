@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "parsed_at": "2026-06-15T10:49:54+00:00",
-  "input_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/document_store.jsonl",
-  "parsed_output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/parsed_documents.jsonl",
-  "errors_output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/parse_errors.jsonl",
+  "input_path": "<repo-root>/data/processed/document_store.jsonl",
+  "parsed_output_path": "<repo-root>/data/processed/parsed_documents.jsonl",
+  "errors_output_path": "<repo-root>/data/processed/parse_errors.jsonl",
   "input_document_count": 5,
   "parsed_document_count": 5,
   "parse_error_count": 0,

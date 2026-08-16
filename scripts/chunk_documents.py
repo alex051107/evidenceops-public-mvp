@@ -9,6 +9,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _portable_paths import portable_report_path
+
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -51,8 +53,8 @@ def main() -> int:
     write_jsonl(args.chunks_output, chunks)
     write_jsonl(args.errors_output, errors)
     report = build_chunk_report(
-        input_path=args.input,
-        chunks_output_path=args.chunks_output,
+        input_path=portable_report_path(args.input, ROOT),
+        chunks_output_path=portable_report_path(args.chunks_output, ROOT),
         input_document_count=len(documents),
         chunks=chunks,
         chunk_errors=errors,
@@ -68,4 +70,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

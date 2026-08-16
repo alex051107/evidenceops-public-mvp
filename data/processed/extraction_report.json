@@ -1,8 +1,8 @@
 {
   "status": "ok",
   "extracted_at": "2026-06-15T10:49:54+00:00",
-  "chunks_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/chunks.jsonl",
-  "output_path": "/Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp/data/processed/extractions.jsonl",
+  "chunks_path": "<repo-root>/data/processed/chunks.jsonl",
+  "output_path": "<repo-root>/data/processed/extractions.jsonl",
   "input_chunk_count": 5,
   "matched_chunk_count": 5,
   "unmatched_chunk_count": 0,

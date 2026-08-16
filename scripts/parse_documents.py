@@ -9,6 +9,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _portable_paths import portable_report_path
+
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -44,9 +46,9 @@ def main() -> int:
     write_jsonl(args.parsed_output, parsed_documents)
     write_jsonl(args.errors_output, parse_errors)
     report = build_parse_report(
-        input_path=args.input,
-        parsed_output_path=args.parsed_output,
-        errors_output_path=args.errors_output,
+        input_path=portable_report_path(args.input, ROOT),
+        parsed_output_path=portable_report_path(args.parsed_output, ROOT),
+        errors_output_path=portable_report_path(args.errors_output, ROOT),
         input_document_count=len(documents),
         parsed_documents=parsed_documents,
         parse_errors=parse_errors,
@@ -60,4 +62,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

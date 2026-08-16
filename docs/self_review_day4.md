@@ -11,7 +11,7 @@ Day 4 的 parsing 层可以进入下一阶段，但只代表“解析为 section
 命令：
 
 ```bash
-cd /Users/liuzhenpeng/Documents/职业规划及个人/evidenceops_public_mvp
+cd <repo-root>
 python3 -m unittest tests.test_parser
 python3 scripts/parse_documents.py
 ```

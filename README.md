@@ -17,6 +17,16 @@ flags, evaluation summaries, and failure/ablation summaries. The dynamic
 `/api/search` route exists in the local demo server; the static site is not a
 claim that this backend is deployed.
 
+## Workflow at a glance
+
+![EvidenceOps workflow: public or synthetic source registration, citation-preserving parsing and retrieval, evidence-span extraction, risk checks, and scoped release](docs/evidenceops-workflow.svg)
+
+The solid route shows how a source-bound evidence item reaches the inspectable
+console. The two dashed branches are equally important outputs: retrieval can
+return `unsupported`, and a risk check can stop a candidate claim or send it
+for review. The figure describes the implemented public MVP; it does not imply
+that the static Pages console is a deployed dynamic backend.
+
 ## Implemented pipeline
 
 ```text

@@ -6,6 +6,12 @@ metadata, extraction evidence, risk flags, evaluation scope, and failure
 analysis attached to every stage instead of treating a generated answer as the
 final product.
 
+![EvidenceOps illustrated evidence path: scientific papers are compared at passage level, exact support is isolated, and a source-bound record is inspected by a researcher](docs/evidenceops-readme-hero.jpg)
+
+*Illustrated reading: papers become candidate passages; unsupported passages
+fall away; one exact evidence span remains attached to its citation and
+reviewable record.*
+
 ## Public surfaces
 
 - [Repository](https://github.com/alex051107/evidenceops-public-mvp)
@@ -17,7 +23,7 @@ flags, evaluation summaries, and failure/ablation summaries. The dynamic
 `/api/search` route exists in the local demo server; the static site is not a
 claim that this backend is deployed.
 
-## Workflow at a glance
+## Technical workflow
 
 ![EvidenceOps workflow: public or synthetic source registration, citation-preserving parsing and retrieval, evidence-span extraction, risk checks, and scoped release](docs/evidenceops-workflow.svg)
 

@@ -6,7 +6,7 @@ metadata, extraction evidence, risk flags, evaluation scope, and failure
 analysis attached to every stage instead of treating a generated answer as the
 final product.
 
-![EvidenceOps illustrated evidence path: scientific papers are compared at passage level, exact support is isolated, and a source-bound record is inspected by a researcher](docs/evidenceops-readme-hero.jpg)
+![EvidenceOps illustrated evidence path: scientific papers are compared at passage level, exact support is isolated, and a source-bound record is inspected by a researcher](docs/evidenceops-readme-hero-v2.jpg)
 
 *Illustrated reading: papers become candidate passages; unsupported passages
 fall away; one exact evidence span remains attached to its citation and
